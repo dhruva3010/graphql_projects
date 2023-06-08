@@ -1,0 +1,15 @@
+type Query {
+  hello: String!
+  getMessage(id: Int!): String!
+}
+
+type Mutation {
+  createMessage(message: String!): TestModel!
+  updateMessage(id: Int!, message: String!): TestModel!
+  deleteMessage(id: Int!): Boolean!
+}
+
+type TestModel {
+  id: Int!
+  message: String!
+}
