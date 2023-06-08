@@ -1,0 +1,6 @@
+ariadne==0.19.1
+fastapi==0.96.0
+graphql_core==3.2.3
+mysql_connector_repackaged==0.3.1
+SQLAlchemy==2.0.15
+uvicorn==0.22.0
